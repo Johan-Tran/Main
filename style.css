@@ -1,0 +1,38 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body,html{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+header{
+    width:100%;
+    height:20%;
+    background-color:red;   
+}
+
+.nav{
+    display: inline;
+}
+
+.title{
+    text-decoration: none;
+}
+
+.title:visited{
+    color:black;
+}
+
+.title:hover{
+    color:white;
+}
+
+.laptop{
+    height:50%;
+    width:50%;
+    display:block;
+    margin:auto;
+}
