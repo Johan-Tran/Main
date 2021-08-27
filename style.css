@@ -48,8 +48,12 @@ figcaption{
     color:white;
 }
 
-table, th, td{
-    border:1px solid white;
+table{
+    border-collapse: collapse;
+}
+
+td, th {
+    border-bottom:1px solid white;
     color:white;
 }
 
@@ -84,6 +88,5 @@ table, th, td{
 
 .video{
     height:400px;
-    width:300px;
-    
+    width:300px;    
 }
